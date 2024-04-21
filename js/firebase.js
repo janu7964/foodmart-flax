@@ -1,14 +1,13 @@
 
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBEzCQAwrDWftWOgJTjzT96jb6i1hO1hYc",
-  authDomain: "arabiatras.firebaseapp.com",
-  databaseURL: "https://arabiatras-default-rtdb.firebaseio.com",
-  projectId: "arabiatras",
-  storageBucket: "arabiatras.appspot.com",
-  messagingSenderId: "125744464968",
-  appId: "1:125744464968:web:258c48886ae5d84e51847d",
-  measurementId: "G-JH6CNRFJ3P"
+  apiKey: "AIzaSyAhOh5JYfqauFu_FdD3wZ-ApUSSvuOR-A0",
+  authDomain: "foodbuckle.firebaseapp.com",
+  databaseURL: "https://foodbuckle-default-rtdb.firebaseio.com",
+  projectId: "foodbuckle",
+  storageBucket: "foodbuckle.appspot.com",
+  messagingSenderId: "181629136767",
+  appId: "1:181629136767:web:3ac65d90853f644da5b44a"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
